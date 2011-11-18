@@ -1,3 +1,11 @@
+//============================================================================
+// Name        : Teste.cpp
+// Author      : Zerokol
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
 #include <pandaFramework.h>
 #include <pandaSystem.h>
 #include <animControlCollection.h>
