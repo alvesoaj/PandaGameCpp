@@ -3,10 +3,10 @@
 // Author      : zerokol
 //============================================================================
 
-#include "/usr/include/panda3d/pandaFramework.h"
-#include </usr/include/panda3d/pandaSystem.h>
-#include </usr/include/panda3d/animControlCollection.h>
-#include </usr/include/panda3d/auto_bind.h>
+#include <pandaFramework.h>
+#include <pandaSystem.h>
+#include <animControlCollection.h>
+#include <auto_bind.h>
 
 PandaFramework framework;
 
