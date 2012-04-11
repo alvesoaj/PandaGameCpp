@@ -270,12 +270,13 @@ src/Main.d: ../src/Main.cpp /usr/include/panda3d/pandaFramework.h \
  /usr/include/panda3d/geomVertexColumn.h \
  /usr/include/panda3d/internalName.h /usr/include/panda3d/internalName.I \
  /usr/include/panda3d/luse.h /usr/include/panda3d/aa_luse.h \
- /usr/include/panda3d/lvec2_ops.h /usr/include/panda3d/lvecBase2.h \
- /usr/include/panda3d/datagramIterator.h \
+ /usr/include/panda3d/lsimpleMatrix.h \
+ /usr/include/panda3d/lsimpleMatrix.I /usr/include/panda3d/lvec2_ops.h \
+ /usr/include/panda3d/lvecBase2.h /usr/include/panda3d/datagramIterator.h \
  /usr/include/panda3d/datagramIterator.I \
  /usr/include/panda3d/mathNumbers.h /usr/include/panda3d/mathNumbers.I \
- /usr/include/panda3d/deg_2_rad.h /usr/include/panda3d/fltnames.h \
- /usr/include/panda3d/lvecBase2_src.h \
+ /usr/include/panda3d/deg_2_rad.h /usr/include/panda3d/deg_2_rad.I \
+ /usr/include/panda3d/fltnames.h /usr/include/panda3d/lvecBase2_src.h \
  /usr/include/panda3d/lvecBase2_src.I /usr/include/panda3d/dblnames.h \
  /usr/include/panda3d/lpoint2.h /usr/include/panda3d/lvector2.h \
  /usr/include/panda3d/config_linmath.h \
@@ -338,7 +339,8 @@ src/Main.d: ../src/Main.cpp /usr/include/panda3d/pandaFramework.h \
  /usr/include/panda3d/ordered_vector.I \
  /usr/include/panda3d/ordered_vector.T /usr/include/panda3d/virtualFile.I \
  /usr/include/panda3d/vertexDataBuffer.I \
- /usr/include/panda3d/config_gobj.h /usr/include/panda3d/bamReader.h \
+ /usr/include/panda3d/config_gobj.h \
+ /usr/include/panda3d/autoTextureScale.h /usr/include/panda3d/bamReader.h \
  /usr/include/panda3d/datagramGenerator.h \
  /usr/include/panda3d/datagramGenerator.I \
  /usr/include/panda3d/bamReaderParam.h \
@@ -1335,6 +1337,10 @@ src/Main.d: ../src/Main.cpp /usr/include/panda3d/pandaFramework.h \
 
 /usr/include/panda3d/aa_luse.h:
 
+/usr/include/panda3d/lsimpleMatrix.h:
+
+/usr/include/panda3d/lsimpleMatrix.I:
+
 /usr/include/panda3d/lvec2_ops.h:
 
 /usr/include/panda3d/lvecBase2.h:
@@ -1348,6 +1354,8 @@ src/Main.d: ../src/Main.cpp /usr/include/panda3d/pandaFramework.h \
 /usr/include/panda3d/mathNumbers.I:
 
 /usr/include/panda3d/deg_2_rad.h:
+
+/usr/include/panda3d/deg_2_rad.I:
 
 /usr/include/panda3d/fltnames.h:
 
@@ -1544,6 +1552,8 @@ src/Main.d: ../src/Main.cpp /usr/include/panda3d/pandaFramework.h \
 /usr/include/panda3d/vertexDataBuffer.I:
 
 /usr/include/panda3d/config_gobj.h:
+
+/usr/include/panda3d/autoTextureScale.h:
 
 /usr/include/panda3d/bamReader.h:
 

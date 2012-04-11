@@ -17,7 +17,7 @@ CPP_DEPS += \
 src/%.o: ../src/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -I/usr/include/python2.6 -I/usr/include/panda3d -O2 -g -Wall -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<"
+	g++ -o"$@" "$<" -I/usr/include/python2.6 -I/usr/include/panda3d -O2 -g -Wall -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)"
 	@echo 'Finished building: $<'
 	@echo ' '
 

@@ -44,7 +44,7 @@ all: PandaGameCpp
 PandaGameCpp: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ -L/usr/lib64/panda3d -o"PandaGameCpp" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -o"PandaGameCpp" $(OBJS) $(USER_OBJS) $(LIBS) -L/usr/lib64/panda3d
 	@echo 'Finished building target: $@'
 	@echo ' '
 

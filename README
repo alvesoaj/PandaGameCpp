@@ -1,1 +1,3 @@
-g++ src/Main.cpp -o Release/src/Main.o -fPIC -I/usr/include/python2.6/ -I/usr/include/panda3d -lp3framework -lpanda -lpandafx -lpandaexpress -lp3dtoolconfig -lp3dtool -lp3pystub -lp3direct -L/usr/lib64/panda3d
+g++ src/Main.cpp -o Release/src/Main.o -fPIC -O2 -g -Wall -I/usr/include/python2.6/ -I/usr/include/panda3d -lp3framework -lpanda -lpandafx -lpandaexpress -lp3dtoolconfig -lp3dtool -lp3pystub -lp3direct -L/usr/lib64/panda3d
+
+${COMMAND} ${FLAGS} ${OUTPUT_FLAG}${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}

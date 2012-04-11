@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -lp3direct -lp3dtool -lp3dtoolconfig -lp3framework -lp3pystub -lpanda -lpandaexpress -lpandafx
+LIBS := -lp3framework -lpanda -lpandafx -lpandaexpress -lp3dtoolconfig -lp3dtool -lp3pystub -lp3direct
 
