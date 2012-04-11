@@ -1,4 +1,4 @@
-CXXFLAGS =		-fPIC -O2 -g -Wall -fmessage-length=0
+CXXFLAGS =		-fPIC -O2 -Wall -fmessage-length=0
 
 OBJS =			src/Main.cpp
 
